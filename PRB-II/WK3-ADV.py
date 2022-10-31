@@ -50,8 +50,6 @@ while True:
         if plane['hangar'] == 0:
             toPark.append(plane)
             print("> Vliegtuig %s is nog niet geplaatst in een hangar" % plane['code'])
-    if len(toPark) == 0:
-      break
     for hangar in hangarList:
         if not hangar['occupied']:
             print("- Hangar %s is beschikbaar" % hangar['num'])
