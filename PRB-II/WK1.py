@@ -24,6 +24,6 @@ f"""
 Good evening Ladies & gentlemen. this is {pilootName}, your captain for this flight. Here is some information about the flight process.
 Our {planeType} is presently climbing trough {currentHeight} feet en route to our cruising altitude of {desiredHeight} so we can expect a climb of {str(desiredHeight - currentHeight)}. We are expecting a {turbulenceExpected} and our flight plan shows an en route time of %s.
 We expect to arrive in {destination} at {destinationTime}. Our route today will take us over the {pointOfInterest} visible on the left-hand side of the aircraft.
-The en route weather is {f'clear skies' if clearWeather[1] else f'foggy sky'}, {clearWeather[0]}. The %s weather is %s and about %s degrees Celcius. Enjoy your flight.
+The en route weather is {f'clear skies' if clearWeather[1] else f'foggy sky'}, {clearWeather[0]}. The {destination} weather is {weatherConditionsArrival} and about {degrees} degrees Celcius. Enjoy your flight.
 """
 )
