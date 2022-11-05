@@ -1,3 +1,2 @@
 # School
-just sadness<br />
-Noël & Boy
+just sadness<br />Noël & Boy
