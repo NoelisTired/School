@@ -38,7 +38,7 @@ def main():
                 values='passengers', 
                 aggfunc=sum)
             print(table)
-            open('maandenVSairlines.txt', 'w').write(table)
+            open('maandenVSairlines.txt', 'w').write(str(table))
         elif option == "5":
             break
         else:
