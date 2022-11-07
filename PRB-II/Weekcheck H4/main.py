@@ -68,9 +68,7 @@ planeLandedList = [
 ]
 
 print("Welkom bij HangarParkeerder3000")
-isRunning = True
-
-while isRunning:
+while True:
   print("-------------------------------------------------")
   print("Deze vliegtuigen wachten om geparkeerd te worden:\n")
   for plane in planeLandedList:

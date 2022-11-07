@@ -1,7 +1,5 @@
 import csv
-animalsFile = open("animals.csv", "r")
-reader = csv.DictReader(animalsFile)
-animalsList = list(reader)
+reader = animalsList = list(csv.DictReader(open("animals.csv", "r")))
 totalValue = 0
 totalCountry = 0.0
 

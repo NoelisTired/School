@@ -1,7 +1,8 @@
-line_count = 0
-word_count = 0
-for line in open("recording.txt", "r").readlines():
-    line_count += 1
-    word_count += len(line.split())
-
-open('report.txt', 'w').write(f"Aantal regels: {line_count}\nAantal woorden: {word_count}")
+lineCount = 0
+wordCount = 0
+with open("recording.txt", "r") as f:
+    for line in f:
+        lineCount += 1
+        wordCount += len(line.split())
+    open('report.txt', 'w').write(f"Aantal regels: {lineCount}\nAantal woorden: {wordCount}")
+print("einde")
