@@ -25,33 +25,15 @@ def main():
 X. Exit
 
 Option: """)
-    if option.lower() == 'x':
+    if option.lower() == "x":
         exit()
-    elif option == "1":
-        option1()
-    elif option == "2":
-        option2()
-    elif option == "3":
-        option3()
-    elif option == "4":
-        option4()
-    elif option == "5":
-        option5()
-    elif option == "6":
-        option6()
-    elif option == "7":
-        option7()
-    elif option == "8":
-        option8()
-    elif option == "9":
-        option9()
-    elif option == "10":
-        option10()
-    elif option == "11":
-        option11()
     else:
-        main()
-
+        try:
+            listFunc = [option1, option2, option3, option4, option5, option6, option7, option8, option9, option10, option11]
+            listFunc[int(option)-1]()
+        except:
+            main()
+            
 def option1():
     clear()
     print("Gemiddelde gewicht:",data["gewicht"].mean())
