@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+from datetime import datetime
 
 def clear():
     os.system('cls')
@@ -32,8 +33,10 @@ def main():
             print(data[data['destination'] == country]['destination'].count())
             open('vluchten_land.txt', 'w').write(f"Aantal vluchten naar {country}: " + str(data[data['destination'] == country]['destination'].count()))
         elif option == "4":
+            data['departed'] = pd.to_datetime(data['departed'])
+            data['departed'] = data['departed'].dt.strftime('%Y/%m')
             table = data.pivot_table(
-                index='departed',
+                index=data['departed'],
                 columns='airline', 
                 values='passengers', 
                 aggfunc=sum)
