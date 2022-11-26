@@ -15,6 +15,7 @@ import win32api
 import threading
 import json
 import logging
+import math
 from selenium import webdriver
 from colorama import Fore, init
 from selenium.webdriver.common.keys import Keys
@@ -125,6 +126,8 @@ class Attributes:
             print("No support for Image/Text based sums.")
 
     def getAnswer(self, driver, som):
+        if "√" in som:
+            som = str(eval(f"math.sqrt({int(som)})")).replace(".", ",")
         answer = str(eval(som)).replace(".", ",")
         if answer.startswith("invalid syntax"):
             print("We're not able to solve questions that involve text")
