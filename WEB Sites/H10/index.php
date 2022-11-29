@@ -12,6 +12,10 @@
         <h1>Vragenlijst</h1>
         <form action="index.php" class="form" method="post">
             <div class="form-group">
+                <label for="Reset">Reset Form</label>
+                <input type="submit" name="reset" value="Reset">
+            </div>
+            <div class="form-group">
                 <label for="name">Naam</label>
                 <input type="text" name="name" id="name" required>
             </div>
@@ -22,6 +26,10 @@
             <div class="form-group">
                 <label for="email">E-mail</label>
                 <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
             </div>
             <div class="form-group">
                 <label for="phone">Telefoonnummer</label>

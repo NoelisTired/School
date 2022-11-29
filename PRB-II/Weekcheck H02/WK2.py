@@ -1,4 +1,4 @@
-import os
+import os, time
 pilotList = ["Bob", "John", "Fred", "Marie", "Jack", "Bill"]
 
 #! Onnodige global nameToGreet heb ik weggehaald. Je kunt deze gewoon in de functie definiëren, dat is veel netter. en past beter bij de opdracht
@@ -16,4 +16,5 @@ while True:
             print("Hallo %s, welkom terug!" % nameToGreet)
         else:
             print(pilot)
+    time.sleep(3)
     os.system('cls')
