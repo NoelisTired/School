@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-    <title>NoelP | My portfolio</title>
+    <title>Participalis</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href='css/style.css' />
@@ -26,7 +26,7 @@
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa-sharp fa-solid fa-circle-xmark" onclick="closeForm();"></i></button>
         </div>
         <div class="modal-body form-credentials form-credentials-modal">
-            <form action="/email.php" method="post">
+            <form action="./email.php" method="post">
                 <div class="form-label-group mt-3">
                     <input type="email" name="email" autocomplete="email" class="form-control" placeholder="Email Address" value="" required="" autofocus="">
                     <label class="form-label-placeholder">Email Address</label>
@@ -48,10 +48,10 @@
         <div class="main continer">
             <div class="info">
                 <h3 class="white-text hello">Hallo, ik ben Jerome Populiers 👋</h3>
-                <h1 class="white-text maininfo">Participalis BV</h1><span class="gradient gr-1">HEAO propaedeuse</span></h1>
+                <h1 class="white-text maininfo">Participalis BV</h1>HEAO propaedeuse</span></h1>
                 <div class="white-text socials">
                     <div class="github link">
-                        <a href="https://github.com/noelistired" onmouseover="info('github')" onmouseleave="rinfo('github')">
+                        <a href="#" onmouseover="info('github')" onmouseleave="rinfo('github')">
                             <i id="github" class="fa-brands fa-facebook"></i>
                         </a>
                         <span class="linkinfo">
@@ -59,7 +59,7 @@
                         </span>
                     </div>
                     <div class="discord link">
-                        <a href="https://discord.com/users/931197476038393937" onmouseover="info('discord')" onmouseleave="rinfo('discord')">
+                        <a href="#" onmouseover="info('discord')" onmouseleave="rinfo('discord')">
                             <i id="discord" class="fa-brands fa-linkedin"></i>
                         </a>
                         <span class="linkinfo">
@@ -67,7 +67,7 @@
                         </span>
                     </div>
                     <div class="telegram link">
-                        <a href="https://t.me/NoelP" onmouseover="info('telegram')" onmouseleave="rinfo('telegram')">
+                        <a href="#" onmouseover="info('telegram')" onmouseleave="rinfo('telegram')">
                             <i id="telegram" class="fa-brands fa-whatsapp"></i>
                         </a>
                         <span class="linkinfo">
@@ -75,7 +75,7 @@
                         </span>
                     </div>
                     <div class="tiktok link">
-                        <a href="https://www.tiktok.com/@noelp_" onmouseover="info('tiktok')" onmouseleave="rinfo('tiktok')">
+                        <a href="#" onmouseover="info('tiktok')" onmouseleave="rinfo('tiktok')">
                             <i id="tiktok" class="fa-brands fa-tiktok"></i>
                         </a>
                         <span class="linkinfo">
@@ -83,7 +83,7 @@
                         </span>
                     </div>
                     <div class="instagram link">
-                        <a href="https://www.instagram.com/noelpopuliers.py/" onmouseover="info('instagram')" onmouseleave="rinfo('instagram')">
+                        <a href="#" onmouseover="info('instagram')" onmouseleave="rinfo('instagram')">
                             <i id="instagram" class="fa-brands fa-instagram"></i>
                         </a>
                         <span class="linkinfo">
@@ -97,7 +97,7 @@
             <div class="projparent">
                 <div class="projinfo2">
                     <h2 class="white-text">Over Mij</h2>
-                    <p>Find all my experiences, including the position held, the work done and the resources used.</p>
+                    <p>Hier staan een paar punten die bij mij centraal staan</p>
                 </div>
                 <div id="projects">
                     <!-- <img class="shadow" src="img/logo.png" width="250"> -->
@@ -149,8 +149,8 @@ jaar management ervaring stel ik het volgende voor. Beslissingen moeten genomen 
                     </div>
                 </div>
                 <div class="projinfo">
-                    <h2 class="white-text">My Projects</h2>
-                    <p>Find all my experiences, including the position held, the work done and the resources used.</p>
+                    <h2 class="white-text">Ook- </h2>
+                    <p>Hier staan een paar punten die bij mij centraal staan</p>
                 </div>
             </div>
             <div id="aboutme">
