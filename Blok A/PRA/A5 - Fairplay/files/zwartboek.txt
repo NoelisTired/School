@@ -1,0 +1,6 @@
+     datum       team1              team2 uitslag scheidsrechter  overtredingen
+2022-12-31 Ransdaal VC             VoCASA     0-3      Hendricks            100
+2023-01-13      VV Erm           VV Grave     1-3   van Beaumont             96
+2023-01-04      VoCASA       Zurich Heren     3-1      Molegraaf             96
+2023-01-09 Advisie-SSS Wormer Sport Heren     3-0    van Heusden             95
+2023-01-21 Ransdaal VC       Zurich Heren     0-3       Beernink             90

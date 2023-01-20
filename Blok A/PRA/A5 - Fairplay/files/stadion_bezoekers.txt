@@ -1,0 +1,22 @@
+month                            1       12
+stadion                                    
+Creil Stadium                251500   36295
+De Mortel Arena              197237   58654
+Den Andel Stadium            266903   43069
+Deursen-Dennenburg Stadion   133476   71768
+Gassel Arena                 216932   10589
+Harfsen Park                 122070   65325
+Hoofddorp Stadion            172506  139805
+Hoogeloon Park               185820   92194
+Leutingewolde Park           192241  151572
+Mijnsheerenland Stadion      260063   48171
+Nijeholtpade Stadium         211494   21632
+Olburgen Stadion             226842   49511
+Oudehaske Arena              341517   62989
+Purmerland Stadion           238310   28259
+Roderwolde Olympic Stadium   230453   33799
+Rozenburg Arena              229103   25757
+Stieltjeskanaal Stadion      146173   28696
+Stompetoren Olympic Stadium  112043  105071
+Wachtum Arena                282337   32310
+Zijderveld Arena             242801   92388

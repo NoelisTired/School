@@ -1,0 +1,89 @@
+     datum                   team1                   team2 uitslag scheidsrechter
+2022-12-31                VV Rolde      HHB Coaching / CSV     1-3       Beernink
+2022-12-31       Peize Sport Heren Maarsbergen Sport Heren     2-3       Beernink
+2023-01-01         Toornwerd Heren  Lauwersoog Sport Heren     2-3      Molegraaf
+2023-01-01      Wormer Sport Heren             Ransdaal VC     3-1       Beernink
+2023-01-02                  VoCASA           VC Ysbrechtum     3-1           Room
+2023-01-02     Backflip Dromedaris                VV Grave     3-1       Broeders
+2023-01-02     Backflip Dromedaris      HHB Coaching / CSV     3-0       Beernink
+2023-01-02                  VV Erm                VV Rolde     1-3           Zaal
+2023-01-02            Zurich Heren      Wormer Sport Heren     3-1    van Heusden
+2023-01-02             Advisie-SSS                  VoCASA     3-2    van Heusden
+2023-01-02                VV Grave            Zurich Heren     3-0   van Beaumont
+2023-01-03      HHB Coaching / CSV                VV Rolde     1-3    van den Pol
+2023-01-03             Advisie-SSS            Zurich Heren     0-3      Molegraaf
+2023-01-03                VV Grave                LA Blaze     3-0           Room
+2023-01-03                VV Grave         Appelscha Heren     3-0       Beernink
+2023-01-04                  VV Erm                LA Blaze     0-3       Broeders
+2023-01-04         Appelscha Heren        Banzo / Side-Out     1-3    van Heusden
+2023-01-04      HHB Coaching / CSV           VC Ysbrechtum     3-0          Haack
+2023-01-04                VV Grave  Lauwersoog Sport Heren     3-0       Broeders
+2023-01-04           VC Ysbrechtum                VV Grave     0-3          Haack
+2023-01-05     Backflip Dromedaris           VC Ysbrechtum     3-0    van Heusden
+2023-01-05                  VV Erm         Toornwerd Heren     1-3   van Beaumont
+2023-01-05          VC Moerkapelle         Toornwerd Heren     0-3           Zaal
+2023-01-06      Wormer Sport Heren             Advisie-SSS     2-3    van den Pol
+2023-01-06         Northeast Force            Zurich Heren     3-2    van den Pol
+2023-01-07  Lauwersoog Sport Heren      Wormer Sport Heren     3-1       Beernink
+2023-01-07         Appelscha Heren      HHB Coaching / CSV     3-0    van den Pol
+2023-01-07           VC Ysbrechtum         Northeast Force     2-3       Beernink
+2023-01-08                VV Grave     Backflip Dromedaris     3-2    van Heusden
+2023-01-08                  VoCASA         Toornwerd Heren     3-1          Haack
+2023-01-08            Zurich Heren          VC Moerkapelle     3-0           Zaal
+2023-01-08                LA Blaze Maarsbergen Sport Heren     3-1          Haack
+2023-01-08 Maarsbergen Sport Heren                  VV Erm     2-3      Hendricks
+2023-01-09                VV Grave       Peize Sport Heren     0-3          Haack
+2023-01-09                VV Rolde     Backflip Dromedaris     1-3       Beernink
+2023-01-09           VC Ysbrechtum             Advisie-SSS     3-0    van Heusden
+2023-01-09  Lauwersoog Sport Heren           VC Ysbrechtum     2-3    van den Pol
+2023-01-09             Ransdaal VC     Backflip Dromedaris     2-3       Beernink
+2023-01-09      HHB Coaching / CSV          VC Moerkapelle     2-3    van den Pol
+2023-01-10                  VoCASA     Backflip Dromedaris     0-3    van Heusden
+2023-01-10  Lauwersoog Sport Heren Maarsbergen Sport Heren     2-3      Hendricks
+2023-01-10          VC Moerkapelle            Zurich Heren     3-0    van Heusden
+2023-01-10      Wormer Sport Heren         Appelscha Heren     2-3           Room
+2023-01-10 Maarsbergen Sport Heren      HHB Coaching / CSV     3-1   van Beaumont
+2023-01-10       Peize Sport Heren  Lauwersoog Sport Heren     3-1      Hendricks
+2023-01-11       Peize Sport Heren            Zurich Heren     1-3          Haack
+2023-01-11                VV Grave      HHB Coaching / CSV     1-3      Hendricks
+2023-01-11                  VV Erm          VC Moerkapelle     1-3           Room
+2023-01-11            Zurich Heren  Lauwersoog Sport Heren     3-0           Zaal
+2023-01-11                VV Rolde           VC Ysbrechtum     3-0    van den Pol
+2023-01-11                LA Blaze             Ransdaal VC     3-1      Molegraaf
+2023-01-12        Banzo / Side-Out            Zurich Heren     0-3       Beernink
+2023-01-12 Maarsbergen Sport Heren          VC Moerkapelle     3-2           Zaal
+2023-01-12           VC Ysbrechtum       Peize Sport Heren     0-3           Zaal
+2023-01-12                  VoCASA                  VV Erm     3-2          Haack
+2023-01-12         Appelscha Heren           VC Ysbrechtum     3-0    van den Pol
+2023-01-13            Zurich Heren        Banzo / Side-Out     3-0           Zaal
+2023-01-13             Ransdaal VC Maarsbergen Sport Heren     2-3      Molegraaf
+2023-01-13 Maarsbergen Sport Heren                VV Rolde     0-3   van Beaumont
+2023-01-13         Northeast Force                  VoCASA     1-3           Zaal
+2023-01-14         Northeast Force       Peize Sport Heren     2-3   van Beaumont
+2023-01-14                LA Blaze       Peize Sport Heren     2-3       Broeders
+2023-01-15            Zurich Heren         Northeast Force     2-3      Hendricks
+2023-01-15           VC Ysbrechtum             Ransdaal VC     0-3      Hendricks
+2023-01-15  Lauwersoog Sport Heren                  VoCASA     3-1   van Beaumont
+2023-01-15     Backflip Dromedaris        Banzo / Side-Out     2-3           Zaal
+2023-01-16     Backflip Dromedaris                  VoCASA     3-0   van Beaumont
+2023-01-16      Wormer Sport Heren                VV Grave     2-3       Beernink
+2023-01-16  Lauwersoog Sport Heren                VV Rolde     2-3           Zaal
+2023-01-16           VC Ysbrechtum Maarsbergen Sport Heren     3-2   van Beaumont
+2023-01-16        Banzo / Side-Out         Northeast Force     3-0      Molegraaf
+2023-01-16             Advisie-SSS                  VV Erm     1-3      Hendricks
+2023-01-17             Ransdaal VC                VV Rolde     0-3       Broeders
+2023-01-17                  VoCASA                VV Grave     3-2           Room
+2023-01-17             Advisie-SSS  Lauwersoog Sport Heren     3-0       Beernink
+2023-01-17         Toornwerd Heren                VV Grave     1-3    van Heusden
+2023-01-17           VC Ysbrechtum                LA Blaze     0-3       Broeders
+2023-01-18         Northeast Force                VV Rolde     3-2           Room
+2023-01-18                  VoCASA         Northeast Force     3-0           Zaal
+2023-01-18                  VV Erm      Wormer Sport Heren     3-2    van Heusden
+2023-01-19                  VoCASA      Wormer Sport Heren     1-3       Broeders
+2023-01-19         Northeast Force         Appelscha Heren     3-2       Broeders
+2023-01-19      Wormer Sport Heren      HHB Coaching / CSV     3-1           Zaal
+2023-01-19        Banzo / Side-Out                LA Blaze     3-0           Room
+2023-01-20  Lauwersoog Sport Heren        Banzo / Side-Out     3-2    van Heusden
+2023-01-20                VV Grave        Banzo / Side-Out     0-3   van Beaumont
+2023-01-20       Peize Sport Heren         Northeast Force     1-3          Haack
+2023-01-21            Zurich Heren                VV Grave     3-1      Hendricks

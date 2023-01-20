@@ -1,0 +1,12 @@
+month            1    12
+scheidsrechter          
+Beernink        201  111
+Broeders        163   13
+Haack           190   30
+Hendricks       216  138
+Molegraaf       265   95
+Room            218   42
+Zaal            290   14
+van Beaumont    395  144
+van Heusden     316   63
+van den Pol      91   38
