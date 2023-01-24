@@ -6,7 +6,6 @@ class Functions:
     """
     def __init__(self):
         self.file = csv.DictReader(open('VW.csv', 'r', encoding="UTF-8"), delimiter=';')
-        self.functions = [1] #? Hoe verander ik een list in een __init__ variable/list en append ik hier data toe?
         pass
     
 
@@ -92,8 +91,6 @@ class Functions:
         x = [[row['Datum_in_dienst,'].replace(",",""), row['Voornaam']] for row in Functions().file]
         x.sort(key=lambda date: datetime.datetime.strptime(date[0], "%d-%m-%Y"))
         return [(f"[{i}]","Employee:",v[1],"Has been working Since", v[0]) for i,v in enumerate(x, start=1) if i <= limit]
-        
-
 
     """
     ?    It writes the average salary, average salary after tax, number of employees retiring within 2 years,
@@ -145,7 +142,7 @@ class Menu:
             print('Average salary:\n')
             print('Average Salary: %s\nAverage Salary (taxed): %s\n' % (Functions.avgsalary()[0], Functions.avgsalary()[1]))
         elif choice == '2':
-            print("Availible Functions:\n%s" % jobs)
+            print("Availible Functions:\n\t "+"\n\t ".join(jobs))
             dep = input('Enter Function: \n')
             if dep not in jobs:
                 print("Invalid Function")
@@ -159,10 +156,10 @@ class Menu:
         elif choice == '5':
             [print(x[0], x[1], x[2], x[3], x[4]) for x in Functions.leaderboard(10)]
         elif choice == '6':
-            print("Availible Functions:\n%s" % jobs)
-            print("Availible Departments:\n%s" % departments)
+            print("Availible Functions:\n\t "+"\n\t ".join(jobs))
+            job = input('Enter Function: \n')
+            print("Availible Departments:\n\t "+"\n\t ".join(departments))
             dep = input('Enter department: \n')
-            job = input('Enter job: \n')
             if dep not in departments or job not in jobs:
                 print("Invalid department or job")
                 return
@@ -184,7 +181,7 @@ if __name__ == '__main__':
     print(f"Retrieved {len(jobs)} Functions from 'VW.csv'...\n")
     time.sleep(.50)
     print(f"Retrieved {len(departments)} Departments from 'VW.csv'...\n")
-    time.sleep(3)
+    time.sleep(.50)
     while True:
         os.system('cls') if os.name == 'nt' else os.system('clear')
         print(f"\t[Welcome to the Employee Analyzer]\n")

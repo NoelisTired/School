@@ -1,0 +1,7 @@
+STYLEGUIDE BLUEASY
+
+Afbeeldingen en iconen zijn bijgevoegd in de map.
+
+Lettertype:	SegoeUI
+Blauwe kleur: 	#4bcaff
+Grijs: 		#4a545c (in navbar deels doorzichtig)
