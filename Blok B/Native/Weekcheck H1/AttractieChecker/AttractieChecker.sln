@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttractieChecker", "AttractieChecker.csproj", "{8559441D-0C7B-4747-BEA6-F8E80CC586E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8559441D-0C7B-4747-BEA6-F8E80CC586E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8559441D-0C7B-4747-BEA6-F8E80CC586E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8559441D-0C7B-4747-BEA6-F8E80CC586E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8559441D-0C7B-4747-BEA6-F8E80CC586E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3FB0CA4-329A-4E63-B60D-5068E4BCEB9A}
+	EndGlobalSection
+EndGlobal
