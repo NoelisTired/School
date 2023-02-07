@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnderhoudChecker", "OnderhoudChecker\OnderhoudChecker.csproj", "{1C61DDA0-D4B8-4548-8CC3-DE9492B88797}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C61DDA0-D4B8-4548-8CC3-DE9492B88797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C61DDA0-D4B8-4548-8CC3-DE9492B88797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C61DDA0-D4B8-4548-8CC3-DE9492B88797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C61DDA0-D4B8-4548-8CC3-DE9492B88797}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E92EF4E1-FA17-4637-BB21-0E0DD7AF4F28}
+	EndGlobalSection
+EndGlobal
