@@ -1,0 +1,19 @@
+C:\git\Rotzooi\20210717 DeveloperLandCSharpRegister\CSharpReg\bin\Debug\netcoreapp3.1\CSharpReg.exe
+C:\git\Rotzooi\20210717 DeveloperLandCSharpRegister\CSharpReg\bin\Debug\netcoreapp3.1\CSharpReg.deps.json
+C:\git\Rotzooi\20210717 DeveloperLandCSharpRegister\CSharpReg\bin\Debug\netcoreapp3.1\CSharpReg.runtimeconfig.json
+C:\git\Rotzooi\20210717 DeveloperLandCSharpRegister\CSharpReg\bin\Debug\netcoreapp3.1\CSharpReg.runtimeconfig.dev.json
+C:\git\Rotzooi\20210717 DeveloperLandCSharpRegister\CSharpReg\bin\Debug\netcoreapp3.1\CSharpReg.dll
+C:\git\Rotzooi\20210717 DeveloperLandCSharpRegister\CSharpReg\bin\Debug\netcoreapp3.1\CSharpReg.pdb
+C:\git\Rotzooi\20210717 DeveloperLandCSharpRegister\CSharpReg\obj\Debug\netcoreapp3.1\CSharpReg.csprojAssemblyReference.cache
+C:\git\Rotzooi\20210717 DeveloperLandCSharpRegister\CSharpReg\obj\Debug\netcoreapp3.1\CSharpReg.AssemblyInfoInputs.cache
+C:\git\Rotzooi\20210717 DeveloperLandCSharpRegister\CSharpReg\obj\Debug\netcoreapp3.1\CSharpReg.AssemblyInfo.cs
+C:\git\Rotzooi\20210717 DeveloperLandCSharpRegister\CSharpReg\obj\Debug\netcoreapp3.1\CSharpReg.csproj.CoreCompileInputs.cache
+C:\git\Rotzooi\20210717 DeveloperLandCSharpRegister\CSharpReg\obj\Debug\netcoreapp3.1\CSharpReg.dll
+C:\git\Rotzooi\20210717 DeveloperLandCSharpRegister\CSharpReg\obj\Debug\netcoreapp3.1\CSharpReg.pdb
+C:\git\Rotzooi\20210717 DeveloperLandCSharpRegister\CSharpReg\obj\Debug\netcoreapp3.1\CSharpReg.genruntimeconfig.cache
+C:\git\B1_Vertaalopdracht_DO1_CSharpReg\CSharpReg\obj\Debug\netcoreapp3.1\CSharpReg.csprojAssemblyReference.cache
+C:\git\B1_Vertaalopdracht_DO1_CSharpReg\CSharpReg\obj\Debug\netcoreapp3.1\CSharpReg.AssemblyInfoInputs.cache
+C:\git\B1_Vertaalopdracht_DO1_CSharpReg\CSharpReg\obj\Debug\netcoreapp3.1\CSharpReg.AssemblyInfo.cs
+C:\git\B1_Vertaalopdracht_DO1_CSharpReg\CSharpReg\obj\Debug\netcoreapp3.1\CSharpReg.csproj.CoreCompileInputs.cache
+C:\git\B1_Vertaalopdracht_DO1_CSharpReg\CSharpReg\obj\Debug\netcoreapp3.1\CSharpReg.dll
+C:\git\B1_Vertaalopdracht_DO1_CSharpReg\CSharpReg\obj\Debug\netcoreapp3.1\CSharpReg.pdb
