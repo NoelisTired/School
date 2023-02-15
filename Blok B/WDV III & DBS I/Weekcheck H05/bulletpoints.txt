@@ -1,0 +1,10 @@
+De kennisclip hoort bij de module WDV 3 en is een inleiding in het bouwen van web-apps.
+De clip legt de theoretische basis uit van hoe een web-applicatie werkt.
+Een webapplicatie bestaat uit drie lagen: de database, de back-end en de front-end.
+De database bevat tabellen met informatie, zoals nieuwsberichten.
+De back-end, of de PHP-code van de applicatie, verbindt alle lagen met elkaar en voert queries uit om informatie uit de database te halen.
+De front-end is wat de gebruiker op zijn computer ziet en bestaat uit HTML en CSS.
+De back-end haalt informatie uit de database en zet dit om in HTML-pagina's die de gebruiker kan bekijken.
+Om een webapplicatie te bouwen moet je de theoretische basis begrijpen van de drie lagen en hoe deze met elkaar communiceren.
+De rest van de module gaat dieper in op de details van het bouwen van web-apps.
+Er wordt in deze clip nog niet over code gesproken, maar alleen over de theoretische basis.

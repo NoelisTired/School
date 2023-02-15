@@ -1,0 +1,7 @@
+SELECT name FROM Customer WHERE age > 16;
+SELECT * FROM Movie WHERE genre = 'Romantiek';
+SELECT director FROM Movie WHERE genre = 'Thriller' ORDER BY director;
+SELECT min_age FROM Movie WHERE title = 'Twilight';
+SELECT name FROM Customer WHERE age >= 12 ORDER BY age DESC;
+SELECT * FROM Customer ORDER BY age;
+SELECT title FROM Movie WHERE genre = 'Horror' AND min_age <= 12 ORDER BY title;
