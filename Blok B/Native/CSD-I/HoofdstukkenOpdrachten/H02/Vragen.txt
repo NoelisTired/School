@@ -1,0 +1,18 @@
+Wat weet je nu over variabelen?
+1. C
+2. string = tekst
+   int = getal
+   double = comma getal
+   float = comma getal
+3. int age = 17;
+4. Geef namen die met de code past. Hierdoor is het makkelijk te zien waar de variabele voor dient.
+
+
+Wat weet je nu over voorwaarde?
+5(1). { }
+5(2). == links is gelijk aan rechts 
+      > links groter dan rechts
+      < links kleiner dan rechts
+      != links is niet gelijk aan rechts
+     	>= links is groter of gelijk aan rechts
+6. doet het tegenovergestelde / zet er niet voor. bijvoorbeeld is niet gelijk aan.

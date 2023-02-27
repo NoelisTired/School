@@ -1,0 +1,15 @@
+C:\Users\Boy\OneDrive - Curio\Native\CSD-I\HoofdstukkenOpdrachten\H03\H3_Oefeningen_Syntax\3_Classes\bin\Debug\net6.0\3_Classes.exe
+C:\Users\Boy\OneDrive - Curio\Native\CSD-I\HoofdstukkenOpdrachten\H03\H3_Oefeningen_Syntax\3_Classes\bin\Debug\net6.0\3_Classes.deps.json
+C:\Users\Boy\OneDrive - Curio\Native\CSD-I\HoofdstukkenOpdrachten\H03\H3_Oefeningen_Syntax\3_Classes\bin\Debug\net6.0\3_Classes.runtimeconfig.json
+C:\Users\Boy\OneDrive - Curio\Native\CSD-I\HoofdstukkenOpdrachten\H03\H3_Oefeningen_Syntax\3_Classes\bin\Debug\net6.0\3_Classes.dll
+C:\Users\Boy\OneDrive - Curio\Native\CSD-I\HoofdstukkenOpdrachten\H03\H3_Oefeningen_Syntax\3_Classes\bin\Debug\net6.0\3_Classes.pdb
+C:\Users\Boy\OneDrive - Curio\Native\CSD-I\HoofdstukkenOpdrachten\H03\H3_Oefeningen_Syntax\3_Classes\obj\Debug\net6.0\3_Classes.csproj.AssemblyReference.cache
+C:\Users\Boy\OneDrive - Curio\Native\CSD-I\HoofdstukkenOpdrachten\H03\H3_Oefeningen_Syntax\3_Classes\obj\Debug\net6.0\3_Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Boy\OneDrive - Curio\Native\CSD-I\HoofdstukkenOpdrachten\H03\H3_Oefeningen_Syntax\3_Classes\obj\Debug\net6.0\3_Classes.AssemblyInfoInputs.cache
+C:\Users\Boy\OneDrive - Curio\Native\CSD-I\HoofdstukkenOpdrachten\H03\H3_Oefeningen_Syntax\3_Classes\obj\Debug\net6.0\3_Classes.AssemblyInfo.cs
+C:\Users\Boy\OneDrive - Curio\Native\CSD-I\HoofdstukkenOpdrachten\H03\H3_Oefeningen_Syntax\3_Classes\obj\Debug\net6.0\3_Classes.csproj.CoreCompileInputs.cache
+C:\Users\Boy\OneDrive - Curio\Native\CSD-I\HoofdstukkenOpdrachten\H03\H3_Oefeningen_Syntax\3_Classes\obj\Debug\net6.0\3_Classes.dll
+C:\Users\Boy\OneDrive - Curio\Native\CSD-I\HoofdstukkenOpdrachten\H03\H3_Oefeningen_Syntax\3_Classes\obj\Debug\net6.0\refint\3_Classes.dll
+C:\Users\Boy\OneDrive - Curio\Native\CSD-I\HoofdstukkenOpdrachten\H03\H3_Oefeningen_Syntax\3_Classes\obj\Debug\net6.0\3_Classes.pdb
+C:\Users\Boy\OneDrive - Curio\Native\CSD-I\HoofdstukkenOpdrachten\H03\H3_Oefeningen_Syntax\3_Classes\obj\Debug\net6.0\3_Classes.genruntimeconfig.cache
+C:\Users\Boy\OneDrive - Curio\Native\CSD-I\HoofdstukkenOpdrachten\H03\H3_Oefeningen_Syntax\3_Classes\obj\Debug\net6.0\ref\3_Classes.dll
