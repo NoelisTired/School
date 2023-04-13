@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="H7_Weekcheck_AttractieScherm.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:H7_Weekcheck_AttractieScherm"
+    RequestedTheme="light">
+
+</Application>

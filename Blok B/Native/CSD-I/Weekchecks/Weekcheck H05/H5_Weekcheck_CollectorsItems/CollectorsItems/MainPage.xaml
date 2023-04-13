@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="CollectorsItems.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CollectorsItems"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Margin="20">
+        <StackPanel BorderThickness="2" BorderBrush="Gray" VerticalAlignment="Center">
+            <TextBlock Margin="20,20,0,0" FontStyle="Oblique" >Voer een nieuw item in:</TextBlock>
+            <TextBox Margin="20,5" BorderBrush="Gray" BorderThickness="2" HorizontalTextAlignment="Center" x:Name="nameEl" />
+            <TextBox  Margin="20,5"  BorderBrush="Gray" BorderThickness="2" HorizontalTextAlignment="Center" x:Name="priceEl" />
+            <ComboBox Margin="20,5" Width="80" BorderBrush="Gray" AllowDrop="True" x:Name="typeEl" SelectedValuePath="Content">
+                <ComboBoxItem>Boek</ComboBoxItem>
+                <ComboBoxItem>Game</ComboBoxItem>
+                <ComboBoxItem>Overig</ComboBoxItem>
+            </ComboBox>
+            <CheckBox Margin="20,5" Content="Speciaal" x:Name="checkEl"/>
+            <Button Margin="20,5,0,5" Content="Toevoegen" HorizontalContentAlignment="Center" Click="Button_Click" />
+            <TextBlock Margin="20,5,0,20" Foreground="Red" FontWeight="Bold" x:Name="notificationEl" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Height="200">
+            <StackPanel VerticalAlignment="Center" Margin="20,0,10,0">
+                <TextBlock Text="Normale items:" />
+                <TextBox x:Name="normalItemsEl" BorderThickness="2" BorderBrush="Gray" Height="50" Width="350" />
+            </StackPanel>
+            <StackPanel VerticalAlignment="Center" Margin="10,0">
+                <TextBlock Text="Speciale items:" />
+                <TextBox x:Name="specialItemsEl" AcceptsReturn="True" BorderThickness="2" BorderBrush="Gray" Height="50" Width="350"/>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</Page>

@@ -1,0 +1,65 @@
+﻿<Page
+    x:Class="H7_Weekcheck_AttractieScherm.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:H7_Weekcheck_AttractieScherm"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel>
+        <Border Background="LightGreen">
+            <StackPanel Orientation="Horizontal" Spacing="30" Padding="30">
+                <Image MaxHeight="30" Source="http://developerland.studiokaa.co/img/logo-big-v4.png"/>
+                <TextBlock FontSize="20" >Open een .attrinfo:</TextBlock>
+                <Button x:ConnectionId='9'                      Content="Kies bestand"/>
+                <TextBlock x:ConnectionId='10' x:Name="tbFileInfo"></TextBlock>
+                <!-- Voeg hier onder elkaar toe:
+                    - Image met maximale hoogte van 30, de source is "http://developerland.studiokaa.co/img/logo-big-v4.png" CHECK
+
+                    - TextBlock met fontsize van 20, inhoud: "Open een .attrinfo:" CHECK
+
+                    - Button waaraan je de bestaande event-handler "Button_Click" koppelt CHECK
+
+                    - Een TextBlock met de naam "tbFileInfo", nog zonder inhoud CHECK
+                -->
+            </StackPanel>
+        </Border>
+        <StackPanel x:ConnectionId='2' Orientation="Horizontal" Padding="30" Spacing="30" x:Name="spAttractie" Visibility="Collapsed">
+            <Image x:ConnectionId='3' x:Name="imgAttractie" Width="600" Stretch="Fill" />
+            <!-- In deze stackpanel komen twee elementen: CHECK
+                - Een Image-tag,
+                - Nog een StackPanel waarin alle elementen komen die rechts van de afbeelding staan.
+            -->
+            <StackPanel Orientation="Vertical" >
+                <StackPanel Orientation="Horizontal" Margin="0, 5">
+                    <TextBlock x:ConnectionId='8' FontStyle="Oblique" Foreground="Gray"  x:Name="attracTheme"/>
+                </StackPanel>
+                <StackPanel>
+                    <TextBlock x:ConnectionId='7'  FontSize="50" FontWeight="ExtraBlack" x:Name="attracName"/>
+                </StackPanel>
+                <StackPanel Margin="0, 20">
+                    <TextBlock x:ConnectionId='6' x:Name="attracInfo"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0, 15">
+                    <TextBlock Foreground="Gray" Margin="0, 0, 5, 0">Minimale lengte: </TextBlock>
+                    <TextBlock x:ConnectionId='5' Foreground="Gray" FontWeight="Bold" x:Name="attracLength"/>
+                </StackPanel>
+                <Border x:ConnectionId='4' Visibility="Collapsed" Background="LightBlue" x:Name="attracPass" Margin="0,10">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="30, 30">
+                        <TextBlock FontFamily="Consolas" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Run FontSize="15" >Alleen te bezoeken met</Run>
+                        </TextBlock>
+                        <TextBlock FontFamily="Consolas" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Run FontSize="30">FastPass</Run>
+                        </TextBlock>
+                    </StackPanel>
+                </Border>
+
+            </StackPanel>
+
+        </StackPanel>
+    </StackPanel>
+</Page>
+
