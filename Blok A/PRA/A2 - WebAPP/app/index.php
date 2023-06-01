@@ -47,8 +47,8 @@
         ?>
         <div class="main continer">
             <div class="info">
-                <h3 class="white-text hello">Hallo, ik ben Jerome Populiers 👋</h3>
-                <h1 class="white-text maininfo">Participalis BV</h1>HEAO propaedeuse</span></h1>
+                <h3 class="white-text hello">Hallo, ik ben Noel 👋</h3>
+                <h1 class="white-text maininfo">pro gamer</h1>tryhard</span></h1>
                 <div class="white-text socials">
                     <div class="github link">
                         <a href="#" onmouseover="info('github')" onmouseleave="rinfo('github')">
