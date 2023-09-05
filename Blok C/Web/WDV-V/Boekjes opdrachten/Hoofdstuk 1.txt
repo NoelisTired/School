@@ -1,0 +1,16 @@
+OPDRACHT 4
+
+1. Wat is een controller, of wat doet een controller?
+2. Wat is een resource? Geef een voorbeeld.
+3. Wat staat er in een config-bestand?
+4. Waarom wordt een config-bestand niet gecommit (het is "ge-gitignored")?
+5. Wat is een request?
+6. Wat is een response?
+
+1. Bij een controller wordt gekeken wat de bedoeling is van de user en voert de code uit die bij die bedoeling hoort.
+2. idk
+3. In ons geval stond er inloggegevens van de database in. Ook kan hier de BaseURL in staan en nog meer.
+4. Omdat in de config prive informatie kan staan zoals inloggegevens.
+5. Een request is een vraag van de user naar de server of hij een bepaalde file mag krijgen zodat het op de user's scherm laten zien kan worden.
+6. Een response is hetgene wat de server terug stuurt naar de user.
+-------------------------------------------------------------------------------
