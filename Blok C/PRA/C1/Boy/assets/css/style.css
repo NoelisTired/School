@@ -1,0 +1,544 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url('../fonts/roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Fellix Bold";
+    src: url('../fonts/fellix/Fellix-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Fellix Medium";
+    src: url('../fonts/fellix/Fellix-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Header */
+header nav{
+    padding-top: 20px;
+    padding-right: 100px;
+    border: #000000;
+    border-bottom: 1px solid #000000;
+}
+
+
+.navimage{
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    margin: -5px 0px 8px 20px;
+}
+
+.headertext{
+    font-family: "Fellix Bold";
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: #000000;
+    border-left: 2px solid #000000;
+    height: fit-content;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px 2px;
+    font-family: "Fellix Bold";
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+.navelements{
+    margin-right: 22%;
+}
+
+nav a{
+    font-family: "Fellix Bold";
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+
+@media screen and (max-width: 800px) {
+    header nav{
+        padding-right: 0px;
+    }
+
+    .navimage{
+        height: 30px;
+        margin: -5px 0px 8px 20px;
+    }
+
+    .headertext{
+        font-size: 20px;
+    }
+
+    nav li {
+        padding: 0px 10px;
+        font-size: 20px;
+    }
+
+    .navelements{
+        margin-right: 0%;
+    }
+}
+
+/* Index */
+.indexbg{ 
+    background-image: url('../img/LaptopGuy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.indexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.indexborder {
+    max-width: 40%;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: rgba(70, 70, 70, 0.5);
+}
+
+.indeximage{
+    width: 15%;
+}
+
+.indextext {
+    font-family: "Fellix Medium";
+    color: white;
+}
+
+.indextext p{
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .indexborder {
+        max-width: 80%;
+    }
+
+    .indeximage{
+        width: 30%;
+    }
+
+    .indextext {
+        font-size: 15px;
+    }
+
+    .indextext p{
+        padding-bottom: 5px;
+    }
+
+    /* move the text up a bit */
+    .indexcenter{
+        height: 50vh;
+    }
+
+}
+
+/* Subjects page */
+.subjectsbg{
+    background-image: url('../img/blauwmeid.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.subjects{
+    color: white;
+    font-family: "Fellix medium";
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.subjects section{
+    border: 3px solid #000000;
+    width: 500px;
+    margin: 20px;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.32);
+}
+
+.subjects section h1{
+    padding-bottom: 12px;
+}
+
+.subimg{
+    width: 580px;
+}
+
+@media screen and (max-width: 800px) {
+    .subjects{
+        grid-template-columns: 1fr;
+    }
+
+    .subimg{
+        width: 100%;
+    }
+
+    .subjects section{
+        width: 80%;
+    }
+
+    .subjects section h1{
+        font-size: 20px;
+    }
+
+    .subjects section p{
+        font-size: 15px;
+    }
+
+    .subimg {
+        width: 0;
+    }
+
+}
+
+/* Overview page */
+.overviewbg{
+    background-image: url('../img/guywithhand.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overviewimg{
+    width: 50%;
+}
+
+.overviewtext{
+    color: white;
+    font-family: "Fellix Medium";
+    width: 45%;
+    margin-left: 1%;
+}
+
+.overviewtext p{
+    padding-bottom: 7px;
+}
+
+@media screen and (max-width: 800px) {
+    .overviewimg{
+        width: 95%;
+    }
+
+    .overviewtext{
+        width: 95%;
+    }
+
+    .overviewtext p{
+        padding-bottom: 15px;
+    }
+
+    .overviewbg {
+        height: 107vh;
+    }
+}
+
+/* Teacher page */
+.teacher{
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.teacher p{
+    color: black;
+    font-family: "Fellix Medium";
+}
+
+.teacherbg{
+    background-image: url('../img/mensen.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.teachertext {
+    color: white;
+    text-shadow: 0px 0px 15px rgb(0, 0, 0);
+    width: 45%;
+    /* margin-left: 1%; */
+    height: fit-content;
+}
+
+.teachertext p{
+    color: white;
+    padding-bottom: 60px;
+    font-size: 20px;
+}
+
+.teacherimages {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    max-width: 500px;
+}
+
+.teachersection {
+    margin-bottom: 80px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.teacherimg {
+    width: 140px;
+    border-radius: 30%;
+    border: 2px solid black;
+}
+
+.teacher section p{
+    color: white;
+    word-wrap: break-word;
+    width: 144px;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .teacher{
+        flex-direction: column;
+        margin-top: 0%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .teacherbg {
+        height: 100vh;
+        background-color: grey;
+    }
+
+    .teachertext {
+        width: 100%;
+        height: 472px;
+        padding: 5px;
+    }
+
+    .teachertext p{
+        padding-bottom: 15px;
+    }
+
+    .teacherimages {
+        max-width: 100%;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    .teachersection {
+        margin-bottom: 80px;
+    }
+
+    .teacherimg {
+        width: 100px;
+    }
+
+    .teacher section p{
+        font-size: 15px;
+        word-wrap: break-word;
+        text-align: center;
+        width: 104px;
+    }
+}
+
+/* Versnellers page */
+.versnellenbg {
+    background-image: url('../img/roze.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.versnellen {
+    display: flex;
+    justify-content: space-around;
+}
+
+.versnellenimage {
+    margin-left: 5%;
+}
+
+.versnellentext {
+    font-family: "Fellix Medium";
+    margin-right: 5%;
+    max-width: 60%;
+    margin-top: 5%;
+    color: white;
+}
+.versnellentext p{
+    padding-bottom: 22px;
+}
+
+@media screen and (max-width: 800px) {
+    .versnellen {
+        flex-direction: column;
+    }
+
+    .versnellenimage {
+        margin-left: 0%;
+    }
+
+    .versnellentext {
+        margin-right: 0%;
+        max-width: 100%;
+        margin-top: 0%;
+    }
+
+    .versnellentext p{
+        padding-bottom: 15px;
+        padding-right: 5px;
+        padding-left: 5px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.334);
+    }
+
+    .versnellenbg {
+        height: 106vh;
+    }
+
+}
+
+/* schedule page */
+.schedulebg {
+    background-image: url('../img/roosterbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.roosterimage{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    padding-top: 2%;
+}
+
+.roosterpageimg{
+    width: 40%;
+}
+
+.roostertext {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7%;
+    padding-top: 2%;
+}
+
+.roostertxt {
+    font-family: "Fellix Medium";
+    font-size: large;
+    color: white;
+    width: 45%;
+    margin-left: 1%;
+    height: fit-content;
+}
+
+@media screen and (max-width: 800px) {
+    /* Roosterimage and roostertext need to be visible */
+    .roosterimage{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 0%;
+        padding-top: 2%;
+    }
+
+    .roosterpageimg{
+        height: 250px;
+        width: auto;
+        /* center */
+        margin-right: 3%;
+    }
+
+    .roostertext {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 0%;
+        padding-top: 2%;
+    }
+
+    .roostertxt {
+        font-family: "Fellix Medium";
+        font-size: large;
+        color: white;
+        width: 95%;
+        margin-left: 1%;
+        height: fit-content;
+    }
+
+    .schedulebg {
+        height: 150vh;
+    }
+
+
+}
+
+/* Error page */
+.errorbg{
+    height: 100vh;
+    background: linear-gradient(rgb(142, 214, 238), rgba(73, 174, 206, 1));
+    background-repeat: no-repeat;
+}
+
+.error-404{
+    margin-top: 10%;
+    font-family: "Roboto Bold";
+    font-size: 200px;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+
+.error-button{
+    margin-top: 20px;
+    font-size: 40px;
+    background-color: #000000;
+    border: none;
+    border-radius: 30px 15px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.error-button:hover{
+    cursor: pointer;
+}
